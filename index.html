@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fancy Software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fancy Software">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style lang="css">
+      body {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 2rem);
+        padding: 1rem;
+        margin: 0;
+        color: #333;
+        text-align: center;
+      }
+
+      #logo {
+        height: 10rem;
+        width: 10rem;
+      }
+
+      h1, h2 {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 300%;
+      }
+
+      #name {
+        margin-top: 1rem;
+      }
+
+      #motto {
+        margin-top: 0.25rem;
+        font-style: italic;
+      }
+
+      #links {
+        margin-top: 0.75rem;
+        display: flex;
+        gap: 0.75rem;
+      }
+
+      .link {
+        display: inline-block;
+        padding: 0.75rem;
+        height: 1.75rem;
+        border: 2px solid #9545e9;
+        border-radius: 100%;
+      }
+
+      .link img {
+        height: 100%;
+        transform: rotate(-15deg);
+      }
+    </style>
+  </head>
+
+  <body>
+    <img id="logo" src="logo.svg">
+    <h1 id="name">Fancy Software</h1>
+    <h2 id="motto">That's what we do.</h2>
+    <div id="links">
+      <a class="link" href="https://twitter.com/fancysoft"><img class="link-icon" src="twitter.svg"></a>
+      <a class="link" href="https://github.com/fancysofthq"><img class="link-icon" src="github.svg"></a>
+      <!-- <a class="link" href="https://blog.fancysoft.xyz"><img class="link-icon" src="blog.svg"></a> -->
+      <a class="link" href="mailto:mail@fancysoft.xyz"><img class="link-icon" src="email.svg"></a>
+    </div>
+  </body>
+</html>
